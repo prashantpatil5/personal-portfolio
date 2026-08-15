@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student sign up form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="tennis ball.jpg">
+    
+</head>
+<body>
+
+    <div class="signup-card">
+        <h1>registration form</h1>
+        <p>join our community and track your progress daily.</p>
+        
+        <hr>
+
+        <form>
+            <p>your full name:</p>
+            <input type="text" id="user-name" placeholder="enter your name here..."><br>
+
+            <p>your email address:</p>
+            <input type="email" id="user-email" placeholder="name@example.com"><br>
+
+            <hr>
+
+            <table>
+    <tr>
+        <th>batch</th>
+        <th>timing</th>
+        <th>fees</th>
+    </tr>
+    <tr>
+        <td>morning club</td>
+        <td>6:00 am</td>
+        <td>free</td>
+    </tr>
+    <tr>
+        <td>evening track</td>
+        <td>5:00 pm</td>
+        <td>free</td>
+    </tr>
+</table>
+<br>
+            <p>select your fields of learning:</p>
+            <input type="checkbox" name="topics" value="frontend"> frontend layout design<br>
+            <input type="checkbox" name="topics" value="backend"> backend server engineering<br>
+            <input type="checkbox" name="topics" value="database"> database management query
+
+            <hr>
+
+            <p>your current experience level:</p>
+            <input type="radio" name="level" value="beginner"> beginner student<br>
+            <input type="radio" name="level" value="intermediate"> intermediate level<br>
+            <input type="radio" name="level" value="pro"> professional expert
+
+            <hr>
+            <p>please review our <a href="https://en.wikipedia.org/wiki/Privacy_policy" target="_blank">rules and privacy link</a> before submitting.</p>
+            <button type="button" id="submit-btn">submit registration</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
